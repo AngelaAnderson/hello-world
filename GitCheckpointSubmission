@@ -1,0 +1,22 @@
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ git checkout master
+Already on 'master'
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ git checkout -b shopping_cart_assignment
+Switched to a new branch 'shopping_cart_assignment'
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ git rm apple.txt
+rm 'apple.txt'
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ open banana.txt
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ touch lettuce.txt
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ open lettuce.txt
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ git digg > lettuce.txt
+git: 'digg' is not a git command. See 'git --help'.
+
+The most similar command is
+	diff
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ git diff > lettuce.txt
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ open lettuce.txt
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ git commit -m "Added lettuce.txt"
+[shopping_cart_assignment 6c5dcf3] Added lettuce.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 apple.txt
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ cat lettuce.txt
+Angelas-MacBook-Pro-2:git_checkpoint angelanderson$ 
